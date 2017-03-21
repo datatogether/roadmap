@@ -62,11 +62,12 @@ Services for tracking changes to websites.
 
 | Service | Description | Technologies | Status | Key Contributors |
 |---------|-------------|--------------|--------|------------------|
-| [**PageFreezer**](http://pagefreezer.com) | Page freezing / archiving service | *external service* | *integrating* | @danielballan |
-| [**Versionista**](https://versionista.com) | Page freezing / archiving service | *external service* | *in use* | @danielballan |
+| [**Web Monitoring DB**](https://github.com/edgi-govdata-archiving/web-monitoring-db) | Website Monitoring project: a more automated version of page monitoring with Versionista (proof of concept for now) | Ruby | *under construction* | @Mr0grog |
 | [**Web Monitoring Differ**](https://github.com/edgi-govdata-archiving/web-monitoring-differ) | Diffing service for the website monitoring project | Javascript | *under construction* | @WestleyArgentum |
 | [**Web Monitoring Processing**](https://github.com/edgi-govdata-archiving/web-monitoring-processing) | Website Monitoring project: data processing, PageFreezer integration, and (eventually) diff filtering and processing | Jupyter, Python | *under construction* | @danielballan | 
 | [**Web Monitoring UI**](https://github.com/edgi-govdata-archiving/web-monitoring-ui) | Website Monitoring project: enable analysts to quickly assess changes to monitored government websites | Javascript | *under construction* | @lightandluck |
+| [**PageFreezer**](http://pagefreezer.com) | Page freezing / archiving service | *external service* | *integrating* | @danielballan |
+| [**Versionista**](https://versionista.com) | Page freezing / archiving service | *external service* | *in use* | @danielballan |
 
 # Distribution
 Services for disseminating content & data to others.
