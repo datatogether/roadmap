@@ -1,7 +1,7 @@
 # Services list
 Each of the following section breaks down an area in this diagram, listing the purpose of each service in that area.
 
-![overview](https://github.com/edgi-govdata-archiving/overview/blob/proposed-services/proposed-services/diagrams/service-overview.png)
+![overview](diagrams/service-overview.png)
 
 
 # Authentication
