@@ -11,8 +11,8 @@ As a basis for metadata & attribution for datasets & content, we propose impleme
 | Field | Label | Definition | Required |
 |-------|-------|------------|----------|
 | **@type** | Metadata Type |  IRI for the [JSON-LD](https://www.w3.org/TR/json-ld/#specifying-the-type) data type. This should be `dcat:Dataset` for each Dataset. | No |
-| **title** | Title | Human-readable name of the asset. Should be in plain English and include sufficient detail to facilitate search and discovery. | **Always** | (1,1) |
-| **description** | Description Human-readable description (e.g., an abstract) with sufficient detail to enable a user to quickly understand whether the asset is of interest. | **Always** |
+| **title** | Title | Human-readable name of the asset. Should be in plain English and include sufficient detail to facilitate search and discovery. | **Always** |
+| **description** | Description | Human-readable description (e.g., an abstract) with sufficient detail to enable a user to quickly understand whether the asset is of interest. | **Always** |
 | **keyword** | Tags | Tags (or keywords) help users discover your dataset; please include terms that would be used by technical and non-technical users. | **Always** |
 | **modified** |  Last Update | Most recent date on which the dataset was changed, updated or modified. | **Always** |
 | **publisher** | Publisher | The publishing entity and optionally their parent organization(s). | **Always** |
@@ -24,10 +24,10 @@ As a basis for metadata & attribution for datasets & content, we propose impleme
 | **license** | License | The license or non-license (i.e. Public Domain) status with which the dataset or API has been published. See [Open Licenses](https://project-open-data.cio.gov/open-licenses/) for more information. | If-Applicable |
 | **rights** |  Rights | This may include information regarding access or restrictions based on privacy, security, or other policies. This should also serve as an explanation for the selected “accessLevel” including instructions for how to access a restricted file, if applicable, or explanation for why a “non-public” or “restricted public” data asset is not “public,” if applicable. Text, 255 characters. | If-Applicable |
 | **spatial** | Spatial The range of spatial applicability of a dataset. Could include a spatial region like a bounding box or a named place. | If-Applicable |
-| **temporal** | Temporal  The range of temporal applicability of a dataset (i.e., a start and end date of applicability for the data).  | If-Applicable |
-| **distribution** |  Distribution  A container for the array of Distribution objects. See Dataset [Distribution Fields](https://project-open-data.cio.gov/v1.1/schema/#dataset-distribution-fields) below for details. | If-Applicable |
-| **accrualPeriodicity** |  Frequency The frequency with which dataset is published.  | No |
-| **conformsTo** |  Data Standard URI used to identify a standardized specification the dataset conforms to.  | No |
+| **temporal** | Temporal | The range of temporal applicability of a dataset (i.e., a start and end date of applicability for the data).  | If-Applicable |
+| **distribution** |  Distribution | A container for the array of Distribution objects. See Dataset [Distribution Fields](https://project-open-data.cio.gov/v1.1/schema/#dataset-distribution-fields) below for details. | If-Applicable |
+| **accrualPeriodicity** |  Frequency | The frequency with which dataset is published.  | No |
+| **conformsTo** |  Data Standard | URI used to identify a standardized specification the dataset conforms to.  | No |
 | **dataQuality**[(USG)](https://project-open-data.cio.gov/v1.1/schema/#USG-note) |  Data Quality |  Whether the dataset meets the agency’s Information Quality Guidelines (true/false). | No |
 | **describedBy** | Data Dictionary | URL to the data dictionary for the dataset. Note that documentation other than a data dictionary can be referenced using Related | Documents | (`references`).  | No |
 | **describedByType** | Data Dictionary Type | The machine-readable file format (IANA Media Type also known as MIME Type) of the dataset’s Data Dictionary (` describedBy`).  | No |
@@ -35,8 +35,8 @@ As a basis for metadata & attribution for datasets & content, we propose impleme
 | **issued** |  Release Date | Date of formal issuance.  | No |
 | **language** |  Language | The language of the dataset.  | No |
 | **landingPage** | Homepage URL |  This field is not intended for an agency’s homepage (e.g. www.agency.gov), but rather if a dataset has a human-friendly hub or landing page that users can be directed to for all resources tied to the dataset.  | No |
-| **primaryITInvestmentUII**[(USG)](https://project-open-data.cio.gov/v1.1/schema/#USG-note) | Primary IT Investment UII For linking a dataset with an IT Unique Investment Identifier (UII).  | No |
-| **references** |  Related Documents Related documents such as technical information about a dataset, developer documentation, etc.  | No |
+| **primaryITInvestmentUII**[(USG)](https://project-open-data.cio.gov/v1.1/schema/#USG-note) | Primary IT | Investment UII For linking a dataset with an IT Unique Investment Identifier (UII).  | No |
+| **references** |  Related Documents | Related documents such as technical information about a dataset, developer documentation, etc.  | No |
 | **systemOfRecords** | System of Records | If the system is designated as a system of records under the Privacy Act of 1974, provide the URL to the System of Records Notice related to this dataset.  | No |
 | **theme** | Category | Main thematic category of the dataset.  | No |
 
