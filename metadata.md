@@ -23,7 +23,7 @@ As a basis for metadata & attribution for datasets & content, we propose impleme
 | **programCode**[(USG)](https://project-open-data.cio.gov/v1.1/schema/#USG-note)| Program Code | Federal agencies, list the primary program related to this data asset, from the Federal Program Inventory. Use the format of `015:001`. | **Always** |
 | **license** | License | The license or non-license (i.e. Public Domain) status with which the dataset or API has been published. See [Open Licenses](https://project-open-data.cio.gov/open-licenses/) for more information. | If-Applicable |
 | **rights** |  Rights | This may include information regarding access or restrictions based on privacy, security, or other policies. This should also serve as an explanation for the selected “accessLevel” including instructions for how to access a restricted file, if applicable, or explanation for why a “non-public” or “restricted public” data asset is not “public,” if applicable. Text, 255 characters. | If-Applicable |
-| **spatial** | Spatial The range of spatial applicability of a dataset. Could include a spatial region like a bounding box or a named place. | If-Applicable |
+| **spatial** | Spatial | The range of spatial applicability of a dataset. Could include a spatial region like a bounding box or a named place. | If-Applicable |
 | **temporal** | Temporal | The range of temporal applicability of a dataset (i.e., a start and end date of applicability for the data).  | If-Applicable |
 | **distribution** |  Distribution | A container for the array of Distribution objects. See Dataset [Distribution Fields](https://project-open-data.cio.gov/v1.1/schema/#dataset-distribution-fields) below for details. | If-Applicable |
 | **accrualPeriodicity** |  Frequency | The frequency with which dataset is published.  | No |
@@ -52,7 +52,7 @@ As a basis for metadata & attribution for datasets & content, we propose impleme
 | **downloadURL** | Download URL | URL providing direct access to a downloadable file of a dataset. | If-Applicable |
 | **format** | Format |  A human-readable description of the file format of a distribution. | No |
 | **mediaType** | Media Type |  The machine-readable file format (IANA Media Type or MIME Type) of the distribution’s downloadURL. | If-Applicable |
-| **title** | Title Human-readable name of the distribution. | No | 
+| **title** | Title | Human-readable name of the distribution. | No | 
 
 
 ### Example:
