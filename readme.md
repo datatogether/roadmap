@@ -6,10 +6,19 @@ This repo is to get people acquainted with a new set of proposed services. Every
 
 # Contents:
 
+### [Archivers 1.0 Lessons](archivers_1_lessons.md)
+*lessons learned from archivers 1.0 workflow*
+
+### [Workflow Changes](workflow_changes.md)
+*high-level overview of proposed workflow changes*
+
 ### [Timeline of services](services_story.md)
 *explains how we've gotten to this point.*
 
-### [Services List](services_list.md)
+### [Roadmap](roadmap.md)
+*roadmap of major milestones*
+
+### [Proposed Services List](services_list.md)
 *Synopsis of each service with links to project repos*
 
 ### [Service Definition](service_defintion.md)
