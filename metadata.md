@@ -26,13 +26,13 @@ As a basis for metadata & attribution for datasets & content, we propose impleme
 | **spatial** | Spatial | The range of spatial applicability of a dataset. Could include a spatial region like a bounding box or a named place. | If-Applicable |
 | **temporal** | Temporal | The range of temporal applicability of a dataset (i.e., a start and end date of applicability for the data).  | If-Applicable |
 | **distribution** |  Distribution | A container for the array of Distribution objects. See Dataset [Distribution Fields](https://project-open-data.cio.gov/v1.1/schema/#dataset-distribution-fields) below for details. | If-Applicable |
-| **accrualPeriodicity** |  Frequency | The frequency with which dataset is published.  | No |
+| **accrualPeriodicity** | Frequency | The frequency with which dataset is published.  | No |
 | **conformsTo** |  Data Standard | URI used to identify a standardized specification the dataset conforms to.  | No |
 | **dataQuality**[(USG)](https://project-open-data.cio.gov/v1.1/schema/#USG-note) |  Data Quality |  Whether the dataset meets the agency’s Information Quality Guidelines (true/false). | No |
 | **describedBy** | Data Dictionary | URL to the data dictionary for the dataset. Note that documentation other than a data dictionary can be referenced using Related | Documents | (`references`).  | No |
 | **describedByType** | Data Dictionary Type | The machine-readable file format (IANA Media Type also known as MIME Type) of the dataset’s Data Dictionary (` describedBy`).  | No |
-| **isPartOf** |  Collection | The collection of which the dataset is a subset.  | No |
-| **issued** |  Release Date | Date of formal issuance.  | No |
+| **isPartOf** | Collection | The collection of which the dataset is a subset.  | No |
+| **issued** | Release Date | Date of formal issuance.  | No |
 | **language** |  Language | The language of the dataset.  | No |
 | **landingPage** | Homepage URL |  This field is not intended for an agency’s homepage (e.g. www.agency.gov), but rather if a dataset has a human-friendly hub or landing page that users can be directed to for all resources tied to the dataset.  | No |
 | **primaryITInvestmentUII**[(USG)](https://project-open-data.cio.gov/v1.1/schema/#USG-note) | Primary IT | Investment UII For linking a dataset with an IT Unique Investment Identifier (UII).  | No |

@@ -2,9 +2,9 @@
 
 ![overview](diagrams/service-overview.png)
 
-This repo is to get people acquainted with a new set of proposed services. Everything here is subject to rapid change while we build tech & gather community feedback. If you're looking for a more stable place to contribute code, it's probably better to start with the [edgi overview repo](https://github.com/edgi-govdata-archiving/overview), and then come back here!
+This repo lays out the roadmap for the new archivers 2.0 dev cycle. Everything here is subject to rapid change while we build tech & gather community feedback.
 
-# Contents:
+## Useful Documents:
 
 ### [Archivers 1.0 Lessons](archivers_1_lessons.md)
 *lessons learned from archivers 1.0 workflow*

@@ -21,6 +21,7 @@ From a high level (while staying in the app/technical realm), there seems to be 
 > * Volunteers would like a tutorial on how to use the Archivers app
 
 *Workflow needs to simplify*
+
 The ANCA deck then goes into detail on how to streamline the workflow. It's worth reviewing these slides in full.
 We should work to integreate this feedback directly into later versions of the app, automatically tracking any & everything
 we can, and providing direct links to resources to up the chances that a user will be able to find the info they need.
