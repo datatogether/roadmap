@@ -74,9 +74,9 @@ Services for disseminating content & data to others.
 
 | Service | Description | Technologies | Status | Key Contributors |
 |---------|-------------|--------------|--------|------------------|
-| **API** | JSON API to wrap & publish as many platform services as possible. This would include platform users, archived content, archived metadata, and web-monitoring diffs. | JSON | *planned* | |
+| **API** | JSON API to wrap & publish as many platform services as possible. This would include platform users, archived content, archived metadata, and web-monitoring diffs. | JSON | *alpha* | |
 | **Bag-Gen** | A server to generate bags for bag-oriented data hosting services (ckan, dataverse, etc).  This service is planned as a python wrapper around [python bagIt lib](https://pypi.python.org/pypi/bagit/) that turns it into a server can generate bags from archived content. | Python |  *planned* | |
-| **IPFS-Node** | A Bundle of existing frameworks to publish & syncronize archived content with the [Inter-Planitary File System](https://ipfs.io). |  **Go** | *planned* | |
+| **IPFS-Node** | A Bundle of existing frameworks to publish & syncronize archived content with the [Inter-Planitary File System](https://ipfs.io). |  **Go** | *alpha* | |
 | **Dat-Gen** | Service for generating & hosting dat-data project packages. This is a planned lightweight node.js wrapper around the dat library, capabale of translating archived content to dat projects. | Javascript, Node.js | *planned* | |
 
 # Coordination
@@ -84,7 +84,7 @@ Services for integrating with other services.
 
 | Service | Description | Technologies | Status | Key Contributors |
 |---------|-------------|--------------|--------|------------------|
-| **Coordinator** | Service that talks to other archiving services about content & metadata they have, using prewritten integrations for translating to each service. This service functions in a very similar fashion to the current Miru implementation. This service could be implemented either as another Miru instance, or a forked version (preference for implementing as an instance). | | *planned* | | 
-| **Coordinator DB** |  Cache of data we've received from other services in a format that matches archiveDB. | | *planned* | |
-| **Integrations** | Series of recipe-repos that map external data sources & destinations. | | *planned* | |
+| **Coverage** | Service that talks to other archiving services about content & metadata they have, using prewritten integrations for translating to each service. This service functions in a very similar fashion to the current Miru implementation. This service could be implemented either as another Miru instance, or a forked version (preference for implementing as an instance). | | *planned* | | 
+| **Coverage DB** |  Cache of data we've received from other services in a format that matches archiveDB. | | *planned* | |
+| **Repositories** | Series of recipe-repos that map external data sources & destinations. | | *planned* | |
 
