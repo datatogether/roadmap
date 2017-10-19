@@ -7,12 +7,12 @@
 ![services list](diagrams/services-list.png)
 
 ** **
-# Looks great! How are you progressing?
+## Looks great! How are you progressing?
 
 Awww, thanks. We track progress in our [`roadmap`](./docs/roadmap.md), go check it out.
 
 ** **
-# What's a service?
+## What's a service?
 
 When we say _service_, we actually mean a _microservice server running in concert with other services_. All of the services that we define end up being run as a cluster of networked containers. Each of our services have a few common characteristics:
 
@@ -45,19 +45,19 @@ When storing information, we often go to great lengths to accept the ipfs-datast
 
 
 ** ** 
-# Production
+## Production
 
 We use [kubernetes](https://kubernetes.io) in production to orchestrate containers. Contact [b5](https://github.com/b5) if you'd like to chat production details.
 
 
 ** **
-# Running The Data Together platform locally
+## Running The Data Together platform locally
 
 The best way to get data together running locally is to clone the [context repo](https://github.com/datatogether/context) and use `docker-compose` to spin up all the necessary backend services. `docker-compose up` will download all the necessary data together images in a single terminal, hook them together via networking, and will spin up a dev version of the webapp to interact with the platform. Many other services come with `docker-compose.yml` files that outline the miniumum number of other services needed to make a sensible working version of the host service.
 
 
 ** **
-# Repo Links
+## Repo Links
 Each repository should carry with it it's own roadmap, defined by milestones. Check each repo's `readme.md` for details
 
 * [**api**](https://github.com/datatogether/api)
