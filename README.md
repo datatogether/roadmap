@@ -9,7 +9,7 @@
 ** **
 # Looks great! How are you progressing?
 
-Awww, thanks. We track progress in our [`ROADMAP`](./docs/ROADMAP.md), go check it out.
+Awww, thanks. We track progress in our [`roadmap`](./docs/roadmap.md), go check it out.
 
 ** **
 # What's a service?
