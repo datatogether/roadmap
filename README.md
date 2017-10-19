@@ -7,6 +7,11 @@
 ![services list](diagrams/services-list.png)
 
 ** **
+# Looks great! How are you progressing?
+
+Awww, thanks. We track progress in our [`ROADMAP`](./docs/ROADMAP.md), go check it out.
+
+** **
 # What's a service?
 
 When we say _service_, we actually mean a _microservice server running in concert with other services_. All of the services that we define end up being run as a cluster of networked containers. Each of our services have a few common characteristics:
