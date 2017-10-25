@@ -20,7 +20,9 @@ We use GitHub issues for [tracking bugs and feature requests](./issues) and Pull
 
 ## ...
 
-[Optional section(s) on Installation (actually using the service!), Architecture, Dependencies, and Other Considerations]
+## [Optional section(s) on Installation (actually using the service!), Architecture, Dependencies, and Other Considerations]
+
+[fill  out this section if the repo contains deployable/installable code]
 
 ## Development
 
