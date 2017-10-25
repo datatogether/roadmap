@@ -14,11 +14,13 @@
 
 ## Getting Involved
 
-We would love involvement from more people! If you notice any errors or would like to submit changes, please see our [Contributing Guidelines](./CONTRIBUTING.md).
+We would love involvement from more people! If you notice any errors or would like to submit changes, please see our [Contributing Guidelines](./CONTRIBUTING.md). 
+
+We use GitHub issues for [tracking bugs and feature requests](./issues) and Pull Requests (PRs) for [submitting changes](./pulls)
 
 ## ...
 
-[Optional section(s) on Architecture, Content, Dependencies, and Special Considerations]
+[Optional section(s) on Installation (actually using the service!), Architecture, Dependencies, and Other Considerations]
 
 ## Development
 
