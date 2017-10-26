@@ -10,13 +10,13 @@
 
 ## License & Copyright
 
-[Modelled on [project guidelines template](./PROJECT.md#license--copyright-readme-block) ]
+[Modelled on [project guidelines template](https://github.com/datatogether/roadmap/blob/master/PROJECT.md#license--copyright-readme-block) ]
 
 ## Getting Involved
 
-We would love involvement from more people! If you notice any errors or would like to submit changes, please see our [Contributing Guidelines](./CONTRIBUTING.md). 
+We would love involvement from more people! If you notice any errors or would like to submit changes, please see our [Contributing Guidelines](./.github/CONTRIBUTING.md). 
 
-We use GitHub issues for [tracking bugs and feature requests](./issues) and Pull Requests (PRs) for [submitting changes](./pulls)
+We use GitHub issues for [tracking bugs and feature requests](https://github.com/datatogether/REPONAME/issues) and Pull Requests (PRs) for [submitting changes](https://github.com/datatogether/REPONAME/pulls)
 
 ## ...
 
