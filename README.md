@@ -47,7 +47,7 @@ When storing information, we often go to great lengths to accept the ipfs-datast
 ** ** 
 ## Production
 
-We use [kubernetes](https://kubernetes.io) in production to orchestrate containers. Contact [b5](https://github.com/b5) if you'd like to chat production details.
+We use [kubernetes](https://kubernetes.io) in production to orchestrate containers. Contact [b5](https://github.com/b5) on the archivers slack if you'd like to chat production details.
 
 
 ** **
