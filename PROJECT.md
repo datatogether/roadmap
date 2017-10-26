@@ -61,3 +61,11 @@ We use a [`CONTRIBUTING.md` template](./templates/CONTRIBUTING.md) that points
 to our main **Contributing Guidelines** located in
 [`datatogether/datatogether`](),
 the template can be extended to cover project- or repo- specific requirements.
+
+## Style Guidelines
+
+- Project name is "Data Together" with a space between the words
+- Golang repository names, folders, and code should be lowercase snakecase (like_this)
+- Readme, license, and "github files" should be UPPERCASE (e.g. CONDUCT.md, README.md, CONTRIBUTING.md, ISSUE_TEMPLATE.md, LICENSE)
+- We hide GitHub stuff (CONTRIBUTING.md, ISSUE_TEMPLATE.md) in a .github folder within every repository
+- Aside from code, en-dashes "-" are fine for many things - including GitHub labels, tags, and more!
