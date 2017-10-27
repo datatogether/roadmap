@@ -1,8 +1,8 @@
 # Data Together Technical Roadmap & Service Overview
 
 [![GitHub](https://img.shields.io/badge/project-Data_Together-487b57.svg?style=flat-square)](http://github.com/datatogether)
-[![Slack](https://img.shields.io/badge/slack-Archivers-b44e88.svg?style=flat-square)](https://github.com/edgi-govdata-archiving/archivers.space)
-[![License](http://img.shields.io/:license-GPL-green.svg?style=flat-square)](https://www.gnu.org/licenses/gpl-3.0.en.html)
+[![Slack](https://img.shields.io/badge/slack-Archivers-b44e88.svg?style=flat-square)](https://archivers-slack.herokuapp.com/)
+[![License](http://img.shields.io/:license-AGPL-green.svg?style=flat-square)](https://www.gnu.org/licenses/agpl-3.0.en.html)
 
 ![services list](diagrams/services-list.png)
 
@@ -17,7 +17,7 @@ Awww, thanks. We track progress in our [`roadmap`](./docs/roadmap.md), go check 
 When we say _service_, we actually mean a _microservice server running in concert with other services_. All of the services that we define end up being run as a cluster of networked containers. Each of our services have a few common characteristics:
 
 ### `server.go` defines `main()`
-The best place to start reading about any service is to open it's `server.go` file, all go programs (that aren't packages) define `func main()` as their starting point, and for us that's always defined in `server.go`. Often you'll see a function called `NewServerRoutes` that defines any and all outward-facing http endpoints. These endpoints define what the service can do, and working backward from there is a great way to understand a service.
+The best place to start reading about any service is to open its `server.go` file. All go programs (that aren't packages) define `func main()` as their starting point, and for us that's always defined in `server.go`. Often you'll see a function called `NewServerRoutes` that defines any and all outward-facing http endpoints. These endpoints define what the service can do, and working backward from there is a great way to understand a service.
 
 ### `config.go` determines config via ENV variables, using the `config` package
 All services support at least some degree of configuration via a `config` struct defined in a file called `config.go`. Services use the config package to extract the values of this configuration from environment variables, mapping `config.FieldName` in the service to an all-caps-snake-case `FIELD_NAME` environment variable. More info can be found in the [config package](https://github.com/datatogether/config).
@@ -26,7 +26,7 @@ All services support at least some degree of configuration via a `config` struct
 [Logrus](https://github.com/sirupsen/logrus) is our logger of choice. We follow [Dave Cheney's Advice](https://dave.cheney.net/2015/11/05/lets-talk-about-logging) when it comes to logging, using only `log.info` and `log.debug` commands.
 
 ### vendored dependencies via `godep`
-We support the idea of reproducable builds, and as such _vendor_ (that is, write copies) all of our dependencies into version control. This means that it should be possible to rewind git history to any point in time, run `go build` and get a functioning binary (presuming the build process worked at that point in time). [godep](https://github.com/tools/godep) is what we're currently using, but we're keeping a close eye on [dep](https://github.com/golang/dep), as a potential replacement.
+We support the idea of reproducible builds, and as such _vendor_ (that is, write copies) all of our dependencies into version control. This means that it should be possible to rewind git history to any point in time, run `go build` and get a functioning binary (presuming the build process worked at that point in time). [godep](https://github.com/tools/godep) is what we're currently using, but we're keeping a close eye on [dep](https://github.com/golang/dep), as a potential replacement.
 
 ### Containerized
 Services are always shipped as docker images.
@@ -58,7 +58,7 @@ The best way to get data together running locally is to clone the [context repo]
 
 ** **
 ## Repo Links
-Each repository should carry with it it's own roadmap, defined by milestones. Check each repo's `readme.md` for details
+Each repository should carry with it its own roadmap, defined by milestones. Check each repo's `README.md` for details
 
 * [**api**](https://github.com/datatogether/api)
 * [**archive**](https://github.com/datatogether/archive)
