@@ -4,7 +4,9 @@
 
 [![GitHub](https://img.shields.io/badge/project-Data_Together-487b57.svg?style=flat-square)](http://github.com/datatogether)
 [![Slack](https://img.shields.io/badge/slack-Archivers-b44e88.svg?style=flat-square)](https://archivers-slack.herokuapp.com/)
-[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](./LICENSE) 
+[![License](https://img.shields.io/github/license/datatogether/REPONAME.svg)](./LICENSE) <!-- Additional CI and Coverage badges for substantive code repos -->
+[![CI](https://img.shields.io/circleci/project/github/datatogether/REPONAME.svg)](https://circleci.com/gh/datatogether/REPONAME) 
+[![Coverage](https://img.shields.io/codecov/c/github/datatogether/REPONAME.svg)](https://codecov.io/gh/datatogether/REPONAME)
 
 [1-3 sentence description of repository contents]
 
