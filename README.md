@@ -2,7 +2,6 @@
 
 [![GitHub](https://img.shields.io/badge/project-Data_Together-487b57.svg?style=flat-square)](http://github.com/datatogether)
 [![Slack](https://img.shields.io/badge/slack-Archivers-b44e88.svg?style=flat-square)](https://archivers-slack.herokuapp.com/)
-[![License](http://img.shields.io/:license-AGPL-green.svg?style=flat-square)](https://www.gnu.org/licenses/agpl-3.0.en.html)
 
 ![services list](diagrams/services-list.png)
 
