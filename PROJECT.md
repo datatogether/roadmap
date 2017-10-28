@@ -28,8 +28,9 @@ include a [Code Header License block](#code-header-license-block).
 ```markdown
 ## License & Copyright
 
-Copyright (C) <year> Data Together.
-This program is free software; you can redistribute it and/or modify it under
+Copyright (C) <year> Data Together
+
+This program is free software: you can redistribute it and/or modify it under
 the terms of the GNU General Public License as published by the Free Software
 Foundation, version 3.0.
 
@@ -44,8 +45,9 @@ See the [`LICENSE`](./LICENSE) file for details.
 
 ```
 /**
- * Copyright (C) <year(s)> Data Together.
- * This program is free software; you can redistribute it and/or modify it
+ * Copyright (C) <year(s)> Data Together
+ *
+ * This program is free software: you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the Free
  * Software Foundation, version 3.0.
  *
