@@ -7,9 +7,9 @@ Each project repository **requires**, at a minimum:
 1. Contributing Guidelines — `.github/CONTRIBUTING.md`
 1. Issue Template — `.github/ISSUE_TEMPLATE.md`
 
-## Readme File
+## Readme
 
-Each [README](https://en.wikipedia.org/wiki/README) file follows a [`README.md` template](./templates/README.md).
+Each [**README**](https://en.wikipedia.org/wiki/README) file follows a [`README.md` template](./templates/README.md).
 
 ## License
 
@@ -20,10 +20,10 @@ Each [README](https://en.wikipedia.org/wiki/README) file follows a [`README.md` 
 for creative works and documentation.
 
 We also use a [License and Copyright block](#license--copyright-readme-block),
-added to our READMEs.  We also add a [LICENSE](/LICENSE) file to the repo, and occasionally
-include a [Code Header License block](#code-header-license-block).
+added to our READMEs.  We also add a [LICENSE](/LICENSE) file to the repo, and 
+occasionally include a [Code Header License block](#code-header-license-block).
 
-### License & Copyright block for README files
+### License & Copyright block for READMEs
 
 ```markdown
 ## License & Copyright
@@ -70,4 +70,4 @@ The template can be extended to cover project- or repo- specific requirements.
 - Golang repository names, folders, and code should be lowercase snakecase (`like_this`)
 - Readme, license, and "github files" should be UPPERCASE (e.g., `CONDUCT.md`, `README.md`, `CONTRIBUTING.md`, `ISSUE_TEMPLATE.md`, `LICENSE`)
 - We hide GitHub stuff (`CONTRIBUTING.md`, `ISSUE_TEMPLATE.md`) in a `.github` folder within every repository
-- Aside from code, en-dashes "-" are fine for many things – including GitHub labels, tags, and more!
+- Aside from code, en-dashes "-" are fine for many things including GitHub labels, tags, and more!
