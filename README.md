@@ -3,12 +3,11 @@
 [![GitHub](https://img.shields.io/badge/project-Data_Together-487b57.svg?style=flat-square)](http://github.com/datatogether)
 [![Slack](https://img.shields.io/badge/slack-Archivers-b44e88.svg?style=flat-square)](https://archivers-slack.herokuapp.com/)
 
-![services list](diagrams/services-list.png)
+We track progress our progess on a [Waffle Board](https://waffle.io/datatogether/roadmap) and identify major goals in our [`roadmap.md`](./docs/roadmap.md), go check it out.
 
 ** **
-## Looks great! How are you progressing?
 
-Awww, thanks. We track progress in our [`roadmap`](./docs/roadmap.md), go check it out.
+![services list](./diagrams/services-list.png)
 
 ** **
 ## What's a service?
