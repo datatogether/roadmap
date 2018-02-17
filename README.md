@@ -3,7 +3,7 @@
 [![GitHub](https://img.shields.io/badge/project-Data_Together-487b57.svg?style=flat-square)](http://github.com/datatogether)
 [![Slack](https://img.shields.io/badge/slack-Archivers-b44e88.svg?style=flat-square)](https://archivers-slack.herokuapp.com/)
 
-We track progress progess using a [Waffle Board](https://waffle.io/datatogether/roadmap) and identify major goals in [`roadmap.md`](./docs/roadmap.md), go check them out!
+We track project progress using a [Waffle Board](https://waffle.io/datatogether/roadmap) and identify major goals in [`roadmap.md`](./docs/roadmap.md), go check them out!
 
 ** **
 
