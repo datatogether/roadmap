@@ -7,7 +7,29 @@ We track project progress using a [Waffle Board](https://waffle.io/datatogether/
 
 ** **
 
-![services list](./diagrams/services-list.png)
+| Frontend Services |
+|:---|
+| ![frontend](./diagrams/icon_service@2x.png)&nbsp; [**webapp**](https://github.com/datatogether/webapp) _allows users to add content metadata about crawled resources_ |
+| ![frontend](./diagrams/icon_service@2x.png)&nbsp; [**website**](https://github.com/datatogether/website) _static-generated website to introduce the Data Together project, built with Hugo_ |
+
+| Backend Services                                                                                         | Packages                                                                                                        |
+|----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
+| ![service](./diagrams/icon_service@2x.png)&nbsp;&nbsp;[**api**](https://github.com/datatogether/api)                | ![package](./diagrams/icon_package@2x.png)&nbsp;&nbsp;[**archive**](https://github.com/datatogether/archive)               |
+| ![service](./diagrams/icon_service@2x.png)&nbsp;&nbsp;[**content**](https://github.com/datatogether/content)        | ![package](./diagrams/icon_package@2x.png)&nbsp;&nbsp;[**archivertools**](https://github.com/datatogether/archivertools)   |
+| ![service](./diagrams/icon_service@2x.png)&nbsp;&nbsp;[**coverage**](https://github.com/datatogether/coverage)      | ![package](./diagrams/icon_package@2x.png)&nbsp;&nbsp;[**cdxj**](https://github.com/datatogether/cdxj)                     |
+| ![service](./diagrams/icon_service@2x.png)&nbsp;&nbsp;[**identity**](https://github.com/datatogether/identity)      | ![package](./diagrams/icon_package@2x.png)&nbsp;&nbsp;[**config**](https://github.com/datatogether/config)                 |
+| ![service](./diagrams/icon_service@2x.png)&nbsp;&nbsp;[**patchbay**](https://github.com/datatogether/patchbay)      | ![package](./diagrams/icon_package@2x.png)&nbsp;&nbsp;[**core**](https://github.com/datatogether/core)                     |
+| ![service](./diagrams/icon_service@2x.png)&nbsp;&nbsp;[**sentry**](https://github.com/datatogether/sentry)          | ![package](./diagrams/icon_package@2x.png)&nbsp;&nbsp;[**dt**](https://github.com/datatogether/dt)                         |
+| ![service](./diagrams/icon_service@2x.png)&nbsp;&nbsp;[**task_mgmt**](https://github.com/datatogether/task_mgmt)    | ![package](./diagrams/icon_package@2x.png)&nbsp;&nbsp;[**extract_href**](https://github.com/datatogether/extract_href)     |
+|                                                                                                          | ![package](./diagrams/icon_package@2x.png)&nbsp;&nbsp;[**ffi**](https://github.com/datatogether/ffi)                        |
+| **External Services**                                                                                    | ![package](./diagrams/icon_package@2x.png)&nbsp;&nbsp;[**linked_data**](https://github.com/datatogether/linked_data)        |
+| ![service](./diagrams/icon_service@2x.png)&nbsp;&nbsp;[**ipfs**](https://github.com/ipfs/go-ipfs)                   | ![package](./diagrams/icon_package@2x.png)&nbsp;&nbsp;[**pdf**](https://github.com/datatogether/pdf)                        |
+| ![service](./diagrams/icon_service@2x.png)&nbsp;&nbsp;[**postgres**](https://github.com/postgres/postgres)          | ![package](./diagrams/icon_package@2x.png)&nbsp;&nbsp;[**resources**](https://github.com/datatogether/resources)            |
+| ![service](./diagrams/icon_service@2x.png)&nbsp;&nbsp;[**rabbitmq**](https://github.com/rabbitmq/rabbitmq-server)   | ![package](./diagrams/icon_package@2x.png)&nbsp;&nbsp;[**rewrite**](https://github.com/datatogether/rewrite)                |
+| ![service](./diagrams/icon_service@2x.png)&nbsp;&nbsp;[**redis**](https://github.com/antirez/redis)                 | ![package](./diagrams/icon_package@2x.png)&nbsp;&nbsp;[**sql_datastore**](https://github.com/datatogether/sql_datastore)    |
+|                                                                                                          | ![package](./diagrams/icon_package@2x.png)&nbsp;&nbsp;[**sql_util**](https://github.com/datatogether/sql_util)              |
+|                                                                                                          | ![package](./diagrams/icon_package@2x.png)&nbsp;&nbsp;[**warc**](https://github.com/datatogether/warc)                      |
+|                                                                                                          | ![package](./diagrams/icon_package@2x.png)&nbsp;&nbsp;[**xmp**](https://github.com/datatogether/xmp)                        |
 
 ** **
 ## What's a service?
@@ -53,29 +75,3 @@ We use [kubernetes](https://kubernetes.io) in production to orchestrate containe
 
 The best way to get data together running locally is to clone the [context repo](https://github.com/datatogether/context) and use `docker-compose` to spin up all the necessary backend services. `docker-compose up` will download all the necessary data together images in a single terminal, hook them together via networking, and will spin up a dev version of the webapp to interact with the platform. Many other services come with `docker-compose.yml` files that outline the miniumum number of other services needed to make a sensible working version of the host service.
 
-
-** **
-## Repo Links
-Each repository should carry with it its own roadmap, defined by milestones. Check each repo's `README.md` for details
-
-* [**api**](https://github.com/datatogether/api)
-* [**archive**](https://github.com/datatogether/archive)
-* [**archivertools**](https://github.com/datatogether/archivertools)
-* [**cdxj**](https://github.com/datatogether/cdxj)
-* [**config**](https://github.com/datatogether/config)
-* [**content**](https://github.com/datatogether/content)
-* [**coverage**](https://github.com/datatogether/coverage)
-* [**extract_href**](https://github.com/datatogether/extract_href)
-* [**ffi**](https://github.com/datatogether/ffi)
-* [**identity**](https://github.com/datatogether/identity)
-* [**ipfs**](https://github.com/ipfs/go-ipfs)
-* [**linked_data**](https://github.com/datatogether/linked_data)
-* [**patchbay**](https://github.com/datatogether/patchbay)
-* [**postgres**](https://github.com/postgres/postgres)
-* [**rabbitmq**](https://github.com/rabbitmq/rabbitmq-server)
-* [**redis**](https://github.com/antirez/redis)
-* [**sentry**](https://github.com/datatogether/sentry)
-* [**sql_datastore**](https://github.com/datatogether/sql_datastore)
-* [**sql_util**](https://github.com/datatogether/sql_util)
-* [**task-mgmt**](https://github.com/datatogether/mgmt)
-* [**warc**](https://github.com/datatogether/warc)
