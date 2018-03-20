@@ -9,27 +9,27 @@ We track project progress using a [Waffle Board](https://waffle.io/datatogether/
 
 | Frontend Services |
 |:---|
-| ![frontend](./diagrams/icon_service@2x.png)&nbsp; [**webapp**](https://github.com/datatogether/webapp) _allows users to add content metadata about crawled resources_ |
-| ![frontend](./diagrams/icon_service@2x.png)&nbsp; [**website**](https://github.com/datatogether/website) _static-generated website to introduce the Data Together project, built with Hugo_ |
+| ![frontend](./diagrams/icon_frontend.svg)&nbsp; [**webapp**](https://github.com/datatogether/webapp) _allows users to add content metadata about crawled resources_ |
+| ![frontend](./diagrams/icon_frontend.svg)&nbsp; [**website**](https://github.com/datatogether/website) _static-generated website to introduce the Data Together project, built with Hugo_ |
 
 | Backend Services                                                                                         | Packages                                                                                                        |
 |----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| ![service](./diagrams/icon_service@2x.png)&nbsp;&nbsp;[**api**](https://github.com/datatogether/api)                | ![package](./diagrams/icon_package@2x.png)&nbsp;&nbsp;[**archive**](https://github.com/datatogether/archive)               |
-| ![service](./diagrams/icon_service@2x.png)&nbsp;&nbsp;[**content**](https://github.com/datatogether/content)        | ![package](./diagrams/icon_package@2x.png)&nbsp;&nbsp;[**archivertools**](https://github.com/datatogether/archivertools)   |
-| ![service](./diagrams/icon_service@2x.png)&nbsp;&nbsp;[**coverage**](https://github.com/datatogether/coverage)      | ![package](./diagrams/icon_package@2x.png)&nbsp;&nbsp;[**cdxj**](https://github.com/datatogether/cdxj)                     |
-| ![service](./diagrams/icon_service@2x.png)&nbsp;&nbsp;[**identity**](https://github.com/datatogether/identity)      | ![package](./diagrams/icon_package@2x.png)&nbsp;&nbsp;[**config**](https://github.com/datatogether/config)                 |
-| ![service](./diagrams/icon_service@2x.png)&nbsp;&nbsp;[**patchbay**](https://github.com/datatogether/patchbay)      | ![package](./diagrams/icon_package@2x.png)&nbsp;&nbsp;[**core**](https://github.com/datatogether/core)                     |
-| ![service](./diagrams/icon_service@2x.png)&nbsp;&nbsp;[**sentry**](https://github.com/datatogether/sentry)          | ![package](./diagrams/icon_package@2x.png)&nbsp;&nbsp;[**dt**](https://github.com/datatogether/dt)                         |
-| ![service](./diagrams/icon_service@2x.png)&nbsp;&nbsp;[**task_mgmt**](https://github.com/datatogether/task_mgmt)    | ![package](./diagrams/icon_package@2x.png)&nbsp;&nbsp;[**extract_href**](https://github.com/datatogether/extract_href)     |
-|                                                                                                          | ![package](./diagrams/icon_package@2x.png)&nbsp;&nbsp;[**ffi**](https://github.com/datatogether/ffi)                        |
-| **External Services**                                                                                    | ![package](./diagrams/icon_package@2x.png)&nbsp;&nbsp;[**linked_data**](https://github.com/datatogether/linked_data)        |
-| ![service](./diagrams/icon_service@2x.png)&nbsp;&nbsp;[**ipfs**](https://github.com/ipfs/go-ipfs)                   | ![package](./diagrams/icon_package@2x.png)&nbsp;&nbsp;[**pdf**](https://github.com/datatogether/pdf)                        |
-| ![service](./diagrams/icon_service@2x.png)&nbsp;&nbsp;[**postgres**](https://github.com/postgres/postgres)          | ![package](./diagrams/icon_package@2x.png)&nbsp;&nbsp;[**resources**](https://github.com/datatogether/resources)            |
-| ![service](./diagrams/icon_service@2x.png)&nbsp;&nbsp;[**rabbitmq**](https://github.com/rabbitmq/rabbitmq-server)   | ![package](./diagrams/icon_package@2x.png)&nbsp;&nbsp;[**rewrite**](https://github.com/datatogether/rewrite)                |
-| ![service](./diagrams/icon_service@2x.png)&nbsp;&nbsp;[**redis**](https://github.com/antirez/redis)                 | ![package](./diagrams/icon_package@2x.png)&nbsp;&nbsp;[**sql_datastore**](https://github.com/datatogether/sql_datastore)    |
-|                                                                                                          | ![package](./diagrams/icon_package@2x.png)&nbsp;&nbsp;[**sql_util**](https://github.com/datatogether/sql_util)              |
-|                                                                                                          | ![package](./diagrams/icon_package@2x.png)&nbsp;&nbsp;[**warc**](https://github.com/datatogether/warc)                      |
-|                                                                                                          | ![package](./diagrams/icon_package@2x.png)&nbsp;&nbsp;[**xmp**](https://github.com/datatogether/xmp)                        |
+| ![service](./diagrams/icon_service.svg)&nbsp;&nbsp;[**api**](https://github.com/datatogether/api)                | ![package](./diagrams/icon_package.svg)&nbsp;&nbsp;[**archive**](https://github.com/datatogether/archive)               |
+| ![service](./diagrams/icon_service.svg)&nbsp;&nbsp;[**content**](https://github.com/datatogether/content)        | ![package](./diagrams/icon_package.svg)&nbsp;&nbsp;[**archivertools**](https://github.com/datatogether/archivertools)   |
+| ![service](./diagrams/icon_service.svg)&nbsp;&nbsp;[**coverage**](https://github.com/datatogether/coverage)      | ![package](./diagrams/icon_package.svg)&nbsp;&nbsp;[**cdxj**](https://github.com/datatogether/cdxj)                     |
+| ![service](./diagrams/icon_service.svg)&nbsp;&nbsp;[**identity**](https://github.com/datatogether/identity)      | ![package](./diagrams/icon_package.svg)&nbsp;&nbsp;[**config**](https://github.com/datatogether/config)                 |
+| ![service](./diagrams/icon_service.svg)&nbsp;&nbsp;[**patchbay**](https://github.com/datatogether/patchbay)      | ![package](./diagrams/icon_package.svg)&nbsp;&nbsp;[**core**](https://github.com/datatogether/core)                     |
+| ![service](./diagrams/icon_service.svg)&nbsp;&nbsp;[**sentry**](https://github.com/datatogether/sentry)          | ![package](./diagrams/icon_package.svg)&nbsp;&nbsp;[**dt**](https://github.com/datatogether/dt)                         |
+| ![service](./diagrams/icon_service.svg)&nbsp;&nbsp;[**task_mgmt**](https://github.com/datatogether/task_mgmt)    | ![package](./diagrams/icon_package.svg)&nbsp;&nbsp;[**extract_href**](https://github.com/datatogether/extract_href)     |
+|                                                                                                          | ![package](./diagrams/icon_package.svg)&nbsp;&nbsp;[**ffi**](https://github.com/datatogether/ffi)                        |
+| **External Services**                                                                                    | ![package](./diagrams/icon_package.svg)&nbsp;&nbsp;[**linked_data**](https://github.com/datatogether/linked_data)        |
+| ![service](./diagrams/icon_service.svg)&nbsp;&nbsp;[**ipfs**](https://github.com/ipfs/go-ipfs)                   | ![package](./diagrams/icon_package.svg)&nbsp;&nbsp;[**pdf**](https://github.com/datatogether/pdf)                        |
+| ![service](./diagrams/icon_service.svg)&nbsp;&nbsp;[**postgres**](https://github.com/postgres/postgres)          | ![package](./diagrams/icon_package.svg)&nbsp;&nbsp;[**resources**](https://github.com/datatogether/resources)            |
+| ![service](./diagrams/icon_service.svg)&nbsp;&nbsp;[**rabbitmq**](https://github.com/rabbitmq/rabbitmq-server)   | ![package](./diagrams/icon_package.svg)&nbsp;&nbsp;[**rewrite**](https://github.com/datatogether/rewrite)                |
+| ![service](./diagrams/icon_service.svg)&nbsp;&nbsp;[**redis**](https://github.com/antirez/redis)                 | ![package](./diagrams/icon_package.svg)&nbsp;&nbsp;[**sql_datastore**](https://github.com/datatogether/sql_datastore)    |
+|                                                                                                          | ![package](./diagrams/icon_package.svg)&nbsp;&nbsp;[**sql_util**](https://github.com/datatogether/sql_util)              |
+|                                                                                                          | ![package](./diagrams/icon_package.svg)&nbsp;&nbsp;[**warc**](https://github.com/datatogether/warc)                      |
+|                                                                                                          | ![package](./diagrams/icon_package.svg)&nbsp;&nbsp;[**xmp**](https://github.com/datatogether/xmp)                        |
 
 ** **
 ## What's a service?
