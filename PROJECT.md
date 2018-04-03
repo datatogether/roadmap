@@ -1,7 +1,7 @@
 # Project Guidelines
 
 Here are our guidelines that all project repositories for Data Together should 
-follow, for [setting up new repositories] we have [templates](./templates/). In 
+follow, if setting up new repositories we have [templates](./templates/). In 
 addition, command line tools like [hub](https://github.com/github/hub) and 
 [ghi](https://github.com/stephencelis/ghi) can help with multi-repository label
 and issue management
