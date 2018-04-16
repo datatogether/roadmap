@@ -77,5 +77,5 @@ Each repository should carry with it its own roadmap, defined by milestones. Che
 * [**sentry**](https://github.com/datatogether/sentry)
 * [**sql_datastore**](https://github.com/datatogether/sql_datastore)
 * [**sql_util**](https://github.com/datatogether/sql_util)
-* [**task-mgmt**](https://github.com/datatogether/mgmt)
+* [**task-mgmt**](https://github.com/datatogether/task-mgmt)
 * [**warc**](https://github.com/datatogether/warc)
