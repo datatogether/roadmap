@@ -5,10 +5,10 @@ The actual implementation of these changes will be spread across a number of ser
 to present a unified user experience that covers any of the necessary workflows.
 
 ### No more download/upload
-To garantee digital provenance & prevent deduplication, volunteers no longer directly download content.
+To guarantee digital provenance & prevent deduplication, volunteers no longer directly download content.
 Instead we will provide tools for automatically archiving content that is web-crawlable.
 
-A large number of urls that arrive at archivers.space are archivable by a web crawler, by archiving this
+A large number of urls that arrive at archivers.space are archivable by a web crawler. By archiving this
 content automatically, we will cut down on the amount of content that's labelled uncrawlable.
 
 Currently we ask users to both write & execute code for uncrawlable content. We will still ask volunteers
@@ -16,8 +16,8 @@ to write code that extracts uncrawlable content, but two things will change:
   1. We will now ask that volunteers put additional checks on their code to match digital provenance standards.
   2. We will execute the code they've written, recording the results.
 
-By moving code execution onto our servers we make gains on quality control, repeatability, and attribution.
-This will solve the problem of a download taking longer than an event, will mean volunteers won't have to
+By moving code execution onto our servers, we make gains on quality control, repeatability, and attribution.
+This will solve the problem of a download taking longer than an event, and will mean volunteers won't have to
 pay for virtual machine time & storage.
 
 ### Continuous, automated content crawling
@@ -26,7 +26,7 @@ update our records in response to changing content. Once a url is added to the p
 continually monitor for changes, and issue updates accordingly.
 
 By switching to having our servers execute custom code, this will allow us to re-run the same code 
-to check for changes, dramatically increasiong the value of volunteer-contributed code.
+to check for changes, dramatically increasing the value of volunteer-contributed code.
 
 ### Primer-Driven Archiving
 Because the new app will track individual URLS, there will be _many_ more URLS on the platform,
@@ -46,7 +46,7 @@ We will coordinate with peer archiving projects, allowing users to write metadat
 may have been archived elsewhere, pushing these contributions back to the greater community.
 
 ### Institutions as First-Class Contributors
-As an example by data.gov publishes metadata about it's content. If we archive data.gov content.
+As an example, data.gov publishes metadata about its content. If we archive data.gov content.
 This metadata will be visible, and properly attributed to data.gov.
 
 ### User-Contributed Data Collections
@@ -56,7 +56,7 @@ describes the contents & purpose of a collection of data. These collections can 
 & Packages.
 
 ### Automated, Selective Bag & Package Creation
-A new service will autmoate the process of exporting collections of data in a number of formats, as well as
+A new service will automate the process of exporting collections of data in a number of formats, as well as
 tracking updates to these collections. The first supported format will be automatically generated Bag-It Bags
 (our current standard), with planned support for Dat data packages, & the Open Knowledge Foundation Data Package
 Format.
